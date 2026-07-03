@@ -1,45 +1,45 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?font=Special+Elite&size=32&duration=2500&pause=1200&color=E8A33D&center=true&vCenter=true&width=600&lines=THE+SAFE+ROOM+IS+CLOSED;SURVIVOR%3A+B100PER;NO+MERCY" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Cinzel&size=32&duration=2500&pause=1200&color=D4AF37&center=true&vCenter=true&width=600&lines=TARNISHED%3A+B100PER;GRACE+GUIDES+THEE;RISE%2C+TARNISHED" alt="Typing SVG" />
 
-![Static Badge](https://img.shields.io/badge/STATUS-ALIVE-8B0000?style=for-the-badge&labelColor=0d0d0d)
-![Static Badge](https://img.shields.io/badge/INFECTION%20LEVEL-LOW-E8A33D?style=for-the-badge&labelColor=0d0d0d)
-![Static Badge](https://img.shields.io/badge/ROLE-GAME%20DEV-8B0000?style=for-the-badge&labelColor=0d0d0d)
+![Static Badge](https://img.shields.io/badge/STATUS-TARNISHED-D4AF37?style=for-the-badge&labelColor=14120b)
+![Static Badge](https://img.shields.io/badge/MAIDENLESS-FALSE-8a7a3d?style=for-the-badge&labelColor=14120b)
+![Static Badge](https://img.shields.io/badge/CLASS-GAME%20DEV-D4AF37?style=for-the-badge&labelColor=14120b)
 
 </div>
 
 ---
 
-### 🧟 SURVIVOR STATUS
+### 🕯️ CHARACTER SHEET
 
 ```yaml
 name: B100per
 class: Game Developer
-specialty: Godot, gameplay systems, Figma-to-code
-current_campaign: figma_test_project (Ragnarok-style client rebuild)
+weapon_arts: Godot, gameplay systems, Figma-to-code
+current_quest: figma_test_project (Ragnarok-style client rebuild)
 ```
 
-I build games and tools — mostly with Godot, sometimes bridging Figma designs straight into working UI. Currently holed up rebuilding a game client, pixel by pixel.
+I build games and tools — mostly with Godot, sometimes bridging Figma designs straight into working UI. Currently on a long quest rebuilding a game client, rune by rune.
 
 ---
 
-### 🔫 LOADOUT
+### ⚔️ ARMAMENTS
 
 <div align="center">
 
-![Godot](https://img.shields.io/badge/Godot-0d0d0d?style=for-the-badge&logo=godotengine&logoColor=E8A33D)
-![GDScript](https://img.shields.io/badge/GDScript-0d0d0d?style=for-the-badge&logo=godotengine&logoColor=8B0000)
-![Unity](https://img.shields.io/badge/Unity-0d0d0d?style=for-the-badge&logo=unity&logoColor=E8A33D)
-![Go](https://img.shields.io/badge/Go-0d0d0d?style=for-the-badge&logo=go&logoColor=8B0000)
-![Figma](https://img.shields.io/badge/Figma-0d0d0d?style=for-the-badge&logo=figma&logoColor=E8A33D)
-![Python](https://img.shields.io/badge/Python-0d0d0d?style=for-the-badge&logo=python&logoColor=E8A33D)
-![JavaScript](https://img.shields.io/badge/JavaScript-0d0d0d?style=for-the-badge&logo=javascript&logoColor=8B0000)
+![Godot](https://img.shields.io/badge/Godot-14120b?style=for-the-badge&logo=godotengine&logoColor=D4AF37)
+![GDScript](https://img.shields.io/badge/GDScript-14120b?style=for-the-badge&logo=godotengine&logoColor=8a7a3d)
+![Unity](https://img.shields.io/badge/Unity-14120b?style=for-the-badge&logo=unity&logoColor=D4AF37)
+![Go](https://img.shields.io/badge/Go-14120b?style=for-the-badge&logo=go&logoColor=8a7a3d)
+![Figma](https://img.shields.io/badge/Figma-14120b?style=for-the-badge&logo=figma&logoColor=D4AF37)
+![Python](https://img.shields.io/badge/Python-14120b?style=for-the-badge&logo=python&logoColor=D4AF37)
+![JavaScript](https://img.shields.io/badge/JavaScript-14120b?style=for-the-badge&logo=javascript&logoColor=8a7a3d)
 
 </div>
 
 ---
 
-### 🚨 SAFE HOUSES (Pinned Runs)
+### 🏰 GREAT RUNES (Legacy Dungeons Cleared)
 
 - 🎮 **FiveGuardians** — team-based game project
 - 🎧 **AudioGame** — audio-driven gameplay experiment
@@ -48,14 +48,14 @@ I build games and tools — mostly with Godot, sometimes bridging Figma designs 
 
 ---
 
-### 📊 KILL COUNT
+### 💀 RUNES COLLECTED
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=B100per&show_icons=true&hide_title=true&hide_border=true&bg_color=0d0d0d&title_color=E8A33D&text_color=e0e0e0&icon_color=8B0000" height="165" alt="stats" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=B100per&hide_border=true&background=0d0d0d&stroke=8B0000&ring=E8A33D&fire=E8A33D&currStreakLabel=E8A33D&sideLabels=e0e0e0&currStreakNum=e0e0e0&sideNums=e0e0e0&dates=707070" height="165" alt="streak" />
+<img src="https://github-readme-stats.vercel.app/api?username=B100per&show_icons=true&hide_title=true&hide_border=true&bg_color=14120b&title_color=D4AF37&text_color=d8d0b8&icon_color=8a7a3d" height="165" alt="stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=B100per&hide_border=true&background=14120b&stroke=8a7a3d&ring=D4AF37&fire=D4AF37&currStreakLabel=D4AF37&sideLabels=d8d0b8&currStreakNum=d8d0b8&sideNums=d8d0b8&dates=6b6450" height="165" alt="streak" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=B100per&layout=compact&hide_border=true&bg_color=0d0d0d&title_color=E8A33D&text_color=e0e0e0" height="165" alt="top langs" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=B100per&layout=compact&hide_border=true&bg_color=14120b&title_color=D4AF37&text_color=d8d0b8" height="165" alt="top langs" />
 
 </div>
 
@@ -63,8 +63,8 @@ I build games and tools — mostly with Godot, sometimes bridging Figma designs 
 
 <div align="center">
 
-`"There's always a lighted window, a warm meal, a friendly voice in the storm."`
+`"Arise now, ye Tarnished. Ye dead, who yet live."`
 
-![Static Badge](https://img.shields.io/badge/PANIC%20EVENT-CLEARED-8B0000?style=flat-square&labelColor=0d0d0d)
+![Static Badge](https://img.shields.io/badge/GREAT%20ENEMY-FELLED-D4AF37?style=flat-square&labelColor=14120b)
 
 </div>
