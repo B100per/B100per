@@ -23,6 +23,56 @@ I build games and tools — mostly with Godot, sometimes bridging Figma designs 
 
 ---
 
+### 📜 STATUS
+
+```
+┌─────────────────────────── STATUS ───────────────────────────┐
+│  B100per                                    Level  99         │
+│  Game Developer                             Runes  84,344     │
+│                                                               │
+│  HP       ██████████████████████████████░░░░░░  1,412 / 1,900 │
+│  FP       ████████████████████░░░░░░░░░░░░░░░░    220 / 350   │
+│  Stamina  ██████████████████████████░░░░░░░░░░    142 / 170   │
+│                                                               │
+│  ── Attributes ──────────────────────────────────────────────│
+│  Vigor         42   (all-nighter survivability)              │
+│  Mind          38   (focus pool)                             │
+│  Endurance     40   (debugging sessions)                     │
+│  Strength      31   (refactoring heavy legacy code)          │
+│  Dexterity     45   (Godot / Unity handling speed)           │
+│  Intelligence  44   (systems & logic sorceries)              │
+│  Faith         30   (belief the build passes CI)             │
+│  Arcane        27   (obscure bug discovery)                  │
+└───────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 🛡️ EQUIPMENT
+
+```
+┌────────────────────────── EQUIPMENT ──────────────────────────┐
+│  Right Hand 1   Godot Engine +10        (keen infusion)       │
+│  Right Hand 2   Unity Blade +7                                │
+│  Left Hand 1    Figma Torch             (illuminates designs) │
+│  Left Hand 2    Go Crossbow                                   │
+│                                                               │
+│  Head           Headphones of Focus                           │
+│  Chest          Hoodie of the Tarnished Dev                   │
+│  Arms           Mechanical Keyboard Gauntlets                 │
+│  Legs           Greaves of Sitting Too Long                   │
+│                                                               │
+│  Talisman 1     Coffee Scarab           (restores FP slowly)  │
+│  Talisman 2     Git Icon                (undo death once)     │
+│  Talisman 3     Rubber Duck Crest       (boosts bug discovery)│
+│  Talisman 4     Claude's Great Rune     (summons AI cooperator)│
+│                                                               │
+│  Flask of Crimson Tears   ████████░░  8 / 10  (espresso)      │
+└───────────────────────────────────────────────────────────────┘
+```
+
+---
+
 ### ⚔️ ARMAMENTS
 
 <div align="center">
