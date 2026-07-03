@@ -29,6 +29,8 @@ I build games and tools — mostly with Godot, sometimes bridging Figma designs 
 
 ![Godot](https://img.shields.io/badge/Godot-0d0d0d?style=for-the-badge&logo=godotengine&logoColor=E8A33D)
 ![GDScript](https://img.shields.io/badge/GDScript-0d0d0d?style=for-the-badge&logo=godotengine&logoColor=8B0000)
+![Unity](https://img.shields.io/badge/Unity-0d0d0d?style=for-the-badge&logo=unity&logoColor=E8A33D)
+![Go](https://img.shields.io/badge/Go-0d0d0d?style=for-the-badge&logo=go&logoColor=8B0000)
 ![Figma](https://img.shields.io/badge/Figma-0d0d0d?style=for-the-badge&logo=figma&logoColor=E8A33D)
 ![Python](https://img.shields.io/badge/Python-0d0d0d?style=for-the-badge&logo=python&logoColor=E8A33D)
 ![JavaScript](https://img.shields.io/badge/JavaScript-0d0d0d?style=for-the-badge&logo=javascript&logoColor=8B0000)
