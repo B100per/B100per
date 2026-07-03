@@ -35,26 +35,11 @@ I build games and tools — mostly with Godot. Currently on a long quest rebuild
 
 ### 🛡️ EQUIPMENT
 
-```
-┌────────────────────────── EQUIPMENT ──────────────────────────┐
-│  Right Hand 1   Godot Engine +10        (keen infusion)       │
-│  Right Hand 2   Unity Blade +7                                │
-│  Left Hand 1    Figma Torch             (illuminates designs) │
-│  Left Hand 2    Go Crossbow                                   │
-│                                                               │
-│  Head           Headphones of Focus                           │
-│  Chest          Hoodie of the Tarnished Dev                   │
-│  Arms           Mechanical Keyboard Gauntlets                 │
-│  Legs           Greaves of Sitting Too Long                   │
-│                                                               │
-│  Talisman 1     Coffee Scarab           (restores FP slowly)  │
-│  Talisman 2     Git Icon                (undo death once)     │
-│  Talisman 3     Rubber Duck Crest       (boosts bug discovery)│
-│  Talisman 4     Claude's Great Rune     (summons AI cooperator)│
-│                                                               │
-│  Flask of Crimson Tears   ████████░░  8 / 10  (espresso)      │
-└───────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+
+<img src="assets/equipment.svg" alt="Equipment" width="720" />
+
+</div>
 
 ---
 
