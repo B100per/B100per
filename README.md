@@ -10,13 +10,18 @@
 
 ---
 
-### 🧟 SURVIVOR FILE
+### 🧟 CEDA INTAKE SCAN
 
-```yaml
-name: B100per
-class: Game Developer
-weapons_of_choice: Godot, gameplay systems, design-to-code
-current_campaign: [REDACTED] — classified by contract (NDA)
+```
+> ceda scan --survivor B100per --clearance level-2
+
+  [ OK ]  INFECTION........... NEGATIVE
+  [ OK ]  STATUS............... IMMUNE
+  [ OK ]  ROLE................. GAME DEVELOPER
+  [ OK ]  LOADOUT SPECIALTY.... Godot, gameplay systems, design-to-code
+  [ !! ]  ACTIVE CAMPAIGN...... [REDACTED] — sealed under contract (NDA)
+
+> scan complete. proceed to safe house.
 ```
 
 I build games and tools — mostly with Godot. Currently fighting through a long campaign, safe house by safe house.
