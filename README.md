@@ -15,11 +15,11 @@
 ```yaml
 name: B100per
 class: Game Developer
-weapon_arts: Godot, gameplay systems, Figma-to-code
-current_quest: figma_test_project (Ragnarok-style client rebuild)
+weapon_arts: Godot, gameplay systems, design-to-code
+current_quest: [REDACTED] — a quest bound by ancient pact (NDA)
 ```
 
-I build games and tools — mostly with Godot, sometimes bridging Figma designs straight into working UI. Currently on a long quest rebuilding a game client, rune by rune.
+I build games and tools — mostly with Godot. Currently on a long quest rebuilding a game client, rune by rune.
 
 ---
 
