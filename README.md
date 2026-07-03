@@ -25,26 +25,11 @@ I build games and tools — mostly with Godot, sometimes bridging Figma designs 
 
 ### 📜 STATUS
 
-```
-┌─────────────────────────── STATUS ───────────────────────────┐
-│  B100per                                    Level  99         │
-│  Game Developer                             Runes  84,344     │
-│                                                               │
-│  HP       ██████████████████████████████░░░░░░  1,412 / 1,900 │
-│  FP       ████████████████████░░░░░░░░░░░░░░░░    220 / 350   │
-│  Stamina  ██████████████████████████░░░░░░░░░░    142 / 170   │
-│                                                               │
-│  ── Attributes ──────────────────────────────────────────────│
-│  Vigor         42   (all-nighter survivability)              │
-│  Mind          38   (focus pool)                             │
-│  Endurance     40   (debugging sessions)                     │
-│  Strength      31   (refactoring heavy legacy code)          │
-│  Dexterity     45   (Godot / Unity handling speed)           │
-│  Intelligence  44   (systems & logic sorceries)              │
-│  Faith         30   (belief the build passes CI)             │
-│  Arcane        27   (obscure bug discovery)                  │
-└───────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+
+<img src="assets/status.svg" alt="Status" width="720" />
+
+</div>
 
 ---
 

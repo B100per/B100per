@@ -1,0 +1,116 @@
+<svg width="820" height="560" viewBox="0 0 820 560" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="80%">
+      <stop offset="0%" stop-color="#1b1810"/>
+      <stop offset="60%" stop-color="#14120b"/>
+      <stop offset="100%" stop-color="#0a0906"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0d878"/>
+      <stop offset="45%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#8a6d1f"/>
+    </linearGradient>
+    <linearGradient id="barFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6b5417"/>
+      <stop offset="55%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#f5e29a"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fff6d5" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clipHP"><rect x="200" y="150" width="267" height="16" rx="8"/></clipPath>
+    <clipPath id="clipFP"><rect x="200" y="188" width="226" height="16" rx="8"/></clipPath>
+    <clipPath id="clipST"><rect x="200" y="226" width="301" height="16" rx="8"/></clipPath>
+  </defs>
+
+  <!-- panel background + frame -->
+  <rect x="4" y="4" width="812" height="552" rx="6" fill="url(#bg)"/>
+  <rect x="14" y="14" width="792" height="532" rx="4" fill="none" stroke="url(#gold)" stroke-width="2" opacity="0.9"/>
+  <rect x="21" y="21" width="778" height="518" rx="3" fill="none" stroke="#8a7a3d" stroke-width="1" opacity="0.55"/>
+
+  <!-- ornamental corners -->
+  <g stroke="url(#gold)" stroke-width="2" fill="none" opacity="0.95">
+    <path d="M14 40 L14 14 L40 14"/><path d="M780 14 L806 14 L806 40"/>
+    <path d="M14 520 L14 546 L40 546"/><path d="M780 546 L806 546 L806 520"/>
+  </g>
+  <g fill="url(#gold)">
+    <circle cx="24" cy="24" r="2.5"/><circle cx="796" cy="24" r="2.5"/>
+    <circle cx="24" cy="536" r="2.5"/><circle cx="796" cy="536" r="2.5"/>
+  </g>
+
+  <!-- title -->
+  <text x="410" y="66" text-anchor="middle" fill="url(#gold)" font-size="30" letter-spacing="10" filter="url(#glow)">STATUS</text>
+  <g stroke="url(#gold)" stroke-width="1.4" opacity="0.85">
+    <line x1="120" y1="80" x2="360" y2="80"/><line x1="460" y1="80" x2="700" y2="80"/>
+  </g>
+  <path d="M410 74 l9 6 -9 6 -9 -6 z" fill="url(#gold)"/>
+
+  <!-- identity -->
+  <text x="60" y="118" fill="#f0e6c8" font-size="22" letter-spacing="3">B100per</text>
+  <text x="60" y="140" fill="#8a7a3d" font-size="13" letter-spacing="2">TARNISHED · GAME DEVELOPER</text>
+  <text x="760" y="118" text-anchor="end" fill="url(#gold)" font-size="15" letter-spacing="2">LEVEL 99</text>
+  <text x="760" y="140" text-anchor="end" fill="#8a7a3d" font-size="13" letter-spacing="1">Runes  84,344</text>
+
+  <!-- bars -->
+  <g font-size="13" letter-spacing="2">
+    <text x="60" y="163" fill="#d8d0b8">HP</text>
+    <text x="60" y="201" fill="#d8d0b8">FP</text>
+    <text x="60" y="239" fill="#d8d0b8">STAMINA</text>
+  </g>
+  <g>
+    <rect x="200" y="150" width="360" height="16" rx="8" fill="#241f13" stroke="#4a4026" stroke-width="1"/>
+    <rect x="200" y="188" width="360" height="16" rx="8" fill="#241f13" stroke="#4a4026" stroke-width="1"/>
+    <rect x="200" y="226" width="360" height="16" rx="8" fill="#241f13" stroke="#4a4026" stroke-width="1"/>
+
+    <rect x="200" y="150" width="267" height="16" rx="8" fill="url(#barFill)"/>
+    <rect x="200" y="188" width="226" height="16" rx="8" fill="url(#barFill)"/>
+    <rect x="200" y="226" width="301" height="16" rx="8" fill="url(#barFill)"/>
+
+    <!-- moving sheen -->
+    <g clip-path="url(#clipHP)"><rect x="-90" y="150" width="90" height="16" fill="url(#sheen)"><animate attributeName="x" from="110" to="480" dur="2.6s" repeatCount="indefinite"/></rect></g>
+    <g clip-path="url(#clipFP)"><rect x="-90" y="188" width="90" height="16" fill="url(#sheen)"><animate attributeName="x" from="110" to="440" dur="2.9s" repeatCount="indefinite"/></rect></g>
+    <g clip-path="url(#clipST)"><rect x="-90" y="226" width="90" height="16" fill="url(#sheen)"><animate attributeName="x" from="110" to="510" dur="2.4s" repeatCount="indefinite"/></rect></g>
+  </g>
+  <g font-size="12" fill="#c8bfa0" text-anchor="end" letter-spacing="1">
+    <text x="560" y="163">1,412 / 1,900</text>
+    <text x="560" y="201">220 / 350</text>
+    <text x="560" y="239">142 / 170</text>
+  </g>
+
+  <!-- attributes divider -->
+  <line x1="60" y1="272" x2="760" y2="272" stroke="#4a4026" stroke-width="1"/>
+  <text x="60" y="298" fill="#8a7a3d" font-size="13" letter-spacing="4">ATTRIBUTES</text>
+
+  <!-- attributes: two columns -->
+  <g font-size="15" letter-spacing="1">
+    <!-- left column -->
+    <g>
+      <text x="60"  y="332" fill="#d8d0b8">Vigor</text>       <text x="360" y="332" text-anchor="end" fill="url(#gold)">42</text>
+      <text x="60"  y="364" fill="#d8d0b8">Mind</text>        <text x="360" y="364" text-anchor="end" fill="url(#gold)">38</text>
+      <text x="60"  y="396" fill="#d8d0b8">Endurance</text>   <text x="360" y="396" text-anchor="end" fill="url(#gold)">40</text>
+      <text x="60"  y="428" fill="#d8d0b8">Strength</text>    <text x="360" y="428" text-anchor="end" fill="url(#gold)">31</text>
+    </g>
+    <!-- right column -->
+    <g>
+      <text x="440" y="332" fill="#d8d0b8">Dexterity</text>    <text x="760" y="332" text-anchor="end" fill="url(#gold)">45</text>
+      <text x="440" y="364" fill="#d8d0b8">Intelligence</text> <text x="760" y="364" text-anchor="end" fill="url(#gold)">44</text>
+      <text x="440" y="396" fill="#d8d0b8">Faith</text>        <text x="760" y="396" text-anchor="end" fill="url(#gold)">30</text>
+      <text x="440" y="428" fill="#d8d0b8">Arcane</text>       <text x="760" y="428" text-anchor="end" fill="url(#gold)">27</text>
+    </g>
+  </g>
+  <g stroke="#2f2917" stroke-width="1">
+    <line x1="60" y1="344" x2="360" y2="344"/><line x1="60" y1="376" x2="360" y2="376"/><line x1="60" y1="408" x2="360" y2="408"/>
+    <line x1="440" y1="344" x2="760" y2="344"/><line x1="440" y1="376" x2="760" y2="376"/><line x1="440" y1="408" x2="760" y2="408"/>
+  </g>
+
+  <!-- footer -->
+  <line x1="120" y1="470" x2="700" y2="470" stroke="#4a4026" stroke-width="1"/>
+  <text x="410" y="502" text-anchor="middle" fill="#8a7a3d" font-size="13" font-style="italic" letter-spacing="1">"Arise now, ye Tarnished."</text>
+  <path d="M410 516 l7 5 -7 5 -7 -5 z" fill="url(#gold)" opacity="0.8"/>
+</svg>
