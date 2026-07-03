@@ -25,7 +25,7 @@ jobs:
           # dots climb empty -> full through Erdtree gold. dark + light variants.
           outputs: |
             dist/snake.svg?palette=github-dark&color_snake=%23D4AF37&color_dots=%232d2a18,%236b5417,%238a6d1f,%23D4AF37,%23f5e29a
-            dist/snake-light.svg?palette=github-light&color_snake=%238a6d1f&color_dots=%23efe7cf,%23d9c27a,%23c2a24a,%238a6d1f,%236b5417
+            dist/snake-light.svg?palette=github-light&color_snake=%238a6d1f&color_dots=%23ebedf0,%23e3cd86,%23c2a24a,%238a6d1f,%236b5417
 
       - name: Push SVG to the output branch
         uses: crazy-max/ghaction-github-pages@v4
