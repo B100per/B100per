@@ -74,7 +74,11 @@ I build games and tools — mostly with Godot. Currently on a long quest rebuild
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=B100per&hide_border=true&background=14120b&stroke=8a7a3d&ring=D4AF37&fire=D4AF37&currStreakLabel=D4AF37&sideLabels=d8d0b8&currStreakNum=d8d0b8&sideNums=d8d0b8&dates=6b6450" height="165" alt="streak" />
 
-<img src="https://raw.githubusercontent.com/B100per/B100per/output/snake.svg" alt="contribution snake" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/B100per/B100per/output/snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/B100per/B100per/output/snake-light.svg" />
+  <img src="https://raw.githubusercontent.com/B100per/B100per/output/snake.svg" alt="contribution snake" />
+</picture>
 
 </div>
 

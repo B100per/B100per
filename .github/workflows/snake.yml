@@ -21,9 +21,11 @@ jobs:
         id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
-          # dots go empty -> full: dark parchment through Erdtree gold; snake is gold
+          # empty cell is lifted off the page bg so the grid lines actually read;
+          # dots climb empty -> full through Erdtree gold. dark + light variants.
           outputs: |
-            dist/snake.svg?palette=github-dark&color_snake=%23D4AF37&color_dots=%23241f13,%236b5417,%238a6d1f,%23D4AF37,%23f5e29a
+            dist/snake.svg?palette=github-dark&color_snake=%23D4AF37&color_dots=%232d2a18,%236b5417,%238a6d1f,%23D4AF37,%23f5e29a
+            dist/snake-light.svg?palette=github-light&color_snake=%238a6d1f&color_dots=%23efe7cf,%23d9c27a,%23c2a24a,%238a6d1f,%236b5417
 
       - name: Push SVG to the output branch
         uses: crazy-max/ghaction-github-pages@v4
