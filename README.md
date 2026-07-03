@@ -72,10 +72,9 @@ I build games and tools — mostly with Godot. Currently on a long quest rebuild
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=B100per&show_icons=true&hide_title=true&hide_border=true&bg_color=14120b&title_color=D4AF37&text_color=d8d0b8&icon_color=8a7a3d" height="165" alt="stats" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=B100per&hide_border=true&background=14120b&stroke=8a7a3d&ring=D4AF37&fire=D4AF37&currStreakLabel=D4AF37&sideLabels=d8d0b8&currStreakNum=d8d0b8&sideNums=d8d0b8&dates=6b6450" height="165" alt="streak" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=B100per&layout=compact&hide_border=true&bg_color=14120b&title_color=D4AF37&text_color=d8d0b8" height="165" alt="top langs" />
+<img src="https://raw.githubusercontent.com/B100per/B100per/output/snake.svg" alt="contribution snake" />
 
 </div>
 
