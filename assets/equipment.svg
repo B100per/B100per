@@ -1,123 +1,142 @@
-<svg width="820" height="600" viewBox="0 0 820 600" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+<svg width="820" height="620" viewBox="0 0 820 620" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', Courier, monospace">
   <defs>
-    <radialGradient id="bg" cx="50%" cy="35%" r="80%">
-      <stop offset="0%" stop-color="#1b1810"/>
-      <stop offset="60%" stop-color="#14120b"/>
-      <stop offset="100%" stop-color="#0a0906"/>
+    <radialGradient id="bg" cx="50%" cy="30%" r="85%">
+      <stop offset="0%" stop-color="#16130e"/>
+      <stop offset="60%" stop-color="#0e0c09"/>
+      <stop offset="100%" stop-color="#060505"/>
     </radialGradient>
-    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#f0d878"/>
-      <stop offset="45%" stop-color="#D4AF37"/>
-      <stop offset="100%" stop-color="#8a6d1f"/>
+    <linearGradient id="bone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8e2d2"/>
+      <stop offset="50%" stop-color="#c8c0ac"/>
+      <stop offset="100%" stop-color="#8a8272"/>
     </linearGradient>
-    <linearGradient id="barFill" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#6b1717"/>
-      <stop offset="55%" stop-color="#b83030"/>
-      <stop offset="100%" stop-color="#f07a6a"/>
+    <linearGradient id="hpFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5a0e0a"/>
+      <stop offset="60%" stop-color="#a01812"/>
+      <stop offset="100%" stop-color="#d43a2a"/>
     </linearGradient>
     <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#ffe0d5" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.55"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
     <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feGaussianBlur stdDeviation="2" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="clipFlask"><rect x="200" y="500" width="288" height="16" rx="8"/></clipPath>
+    <filter id="grunge">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+    <clipPath id="clipPills"><rect x="220" y="524" width="288" height="16"/></clipPath>
   </defs>
 
-  <!-- panel background + frame -->
-  <rect x="4" y="4" width="812" height="592" rx="6" fill="url(#bg)"/>
-  <rect x="14" y="14" width="792" height="572" rx="4" fill="none" stroke="url(#gold)" stroke-width="2" opacity="0.9"/>
-  <rect x="21" y="21" width="778" height="558" rx="3" fill="none" stroke="#8a7a3d" stroke-width="1" opacity="0.55"/>
+  <!-- panel background -->
+  <rect x="4" y="4" width="812" height="612" rx="4" fill="url(#bg)"/>
+  <rect x="4" y="4" width="812" height="612" rx="4" filter="url(#grunge)"/>
 
-  <!-- ornamental corners -->
-  <g stroke="url(#gold)" stroke-width="2" fill="none" opacity="0.95">
-    <path d="M14 40 L14 14 L40 14"/><path d="M780 14 L806 14 L806 40"/>
-    <path d="M14 560 L14 586 L40 586"/><path d="M780 586 L806 586 L806 560"/>
+  <!-- frame -->
+  <rect x="14" y="14" width="792" height="592" rx="2" fill="none" stroke="url(#bone)" stroke-width="2" opacity="0.85"/>
+  <rect x="22" y="22" width="776" height="576" rx="2" fill="none" stroke="#a01812" stroke-width="1" opacity="0.5"/>
+  <g fill="#8a8272">
+    <circle cx="26" cy="26" r="2.5"/><circle cx="794" cy="26" r="2.5"/>
+    <circle cx="26" cy="594" r="2.5"/><circle cx="794" cy="594" r="2.5"/>
   </g>
-  <g fill="url(#gold)">
-    <circle cx="24" cy="24" r="2.5"/><circle cx="796" cy="24" r="2.5"/>
-    <circle cx="24" cy="576" r="2.5"/><circle cx="796" cy="576" r="2.5"/>
+
+  <!-- claw marks, top left this time -->
+  <g opacity="0.55">
+    <path d="M84 26 L132 122 L125 124 L76 32 Z" fill="#7a1410"/>
+    <path d="M112 22 L160 118 L153 120 L104 28 Z" fill="#a01812"/>
+    <path d="M140 26 L184 112 L177 115 L132 31 Z" fill="#7a1410"/>
   </g>
 
   <!-- title -->
-  <text x="410" y="64" text-anchor="middle" fill="url(#gold)" font-size="28" letter-spacing="9" filter="url(#glow)">EQUIPMENT</text>
-  <g stroke="url(#gold)" stroke-width="1.4" opacity="0.85">
-    <line x1="120" y1="78" x2="360" y2="78"/><line x1="460" y1="78" x2="700" y2="78"/>
-  </g>
-  <path d="M410 72 l9 6 -9 6 -9 -6 z" fill="url(#gold)"/>
+  <text x="410" y="64" text-anchor="middle" fill="url(#bone)" font-size="28" font-weight="bold" letter-spacing="10" filter="url(#glow)">LOADOUT
+    <animate attributeName="opacity" values="1;1;0.4;1;0.85;1;1" keyTimes="0;0.55;0.58;0.62;0.65;0.68;1" dur="5s" repeatCount="indefinite"/>
+  </text>
+  <rect x="120" y="80" width="580" height="2" fill="#a01812" opacity="0.7"/>
 
-  <!-- center divider between columns -->
-  <line x1="410" y1="104" x2="410" y2="424" stroke="#3a331d" stroke-width="1"/>
+  <!-- center divider -->
+  <line x1="410" y1="104" x2="410" y2="330" stroke="#332d24" stroke-width="1"/>
 
-  <!-- ============ LEFT COLUMN ============ -->
-  <!-- weapons -->
-  <text x="56" y="118" fill="#8a7a3d" font-size="13" letter-spacing="4">ARMAMENTS</text>
-  <g font-size="12" fill="#8a7a3d" letter-spacing="1">
-    <text x="56" y="150">Right Hand 1</text>
-    <text x="56" y="180">Right Hand 2</text>
-    <text x="56" y="210">Left Hand 1</text>
-    <text x="56" y="240">Left Hand 2</text>
+  <!-- ============ LEFT: WEAPONS ============ -->
+  <text x="56" y="122" fill="#E8A33D" font-size="13" letter-spacing="4">WEAPONS</text>
+  <!-- slot 1 -->
+  <rect x="56" y="142" width="30" height="30" fill="#1c1813" stroke="#8a8272" stroke-width="1.4"/>
+  <text x="71" y="163" text-anchor="middle" fill="#E8A33D" font-size="15" font-weight="bold">1</text>
+  <text x="100" y="156" fill="#e8e2d2" font-size="15">Godot Auto-Shotgun <tspan fill="#E8A33D">+10</tspan></text>
+  <text x="100" y="172" fill="#6e6858" font-size="11" font-style="italic">custom mods, kicks like hell</text>
+  <!-- slot 2 -->
+  <rect x="56" y="196" width="30" height="30" fill="#1c1813" stroke="#8a8272" stroke-width="1.4"/>
+  <text x="71" y="217" text-anchor="middle" fill="#E8A33D" font-size="15" font-weight="bold">2</text>
+  <text x="100" y="210" fill="#e8e2d2" font-size="15">Unity Magnum <tspan fill="#E8A33D">+7</tspan></text>
+  <text x="100" y="226" fill="#6e6858" font-size="11" font-style="italic">one shot, one build</text>
+  <!-- slot 3 -->
+  <rect x="56" y="250" width="30" height="30" fill="#1c1813" stroke="#8a8272" stroke-width="1.4"/>
+  <text x="71" y="271" text-anchor="middle" fill="#E8A33D" font-size="15" font-weight="bold">3</text>
+  <text x="100" y="264" fill="#e8e2d2" font-size="15">Go Pipe Bomb</text>
+  <text x="100" y="280" fill="#6e6858" font-size="11" font-style="italic">bugs chase the beeping</text>
+  <!-- blinking pipe bomb light -->
+  <circle cx="79" cy="253" r="2.5" fill="#d43a2a">
+    <animate attributeName="opacity" values="1;0.1;1" dur="0.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ============ RIGHT: SUPPORT ============ -->
+  <text x="452" y="122" fill="#E8A33D" font-size="13" letter-spacing="4">SUPPORT</text>
+  <!-- slot 4 -->
+  <rect x="452" y="142" width="30" height="30" fill="#1c1813" stroke="#8a8272" stroke-width="1.4"/>
+  <text x="467" y="163" text-anchor="middle" fill="#E8A33D" font-size="15" font-weight="bold">4</text>
+  <text x="496" y="156" fill="#e8e2d2" font-size="15">Git Medkit</text>
+  <text x="496" y="172" fill="#6e6858" font-size="11" font-style="italic">undo death once</text>
+  <!-- red cross on medkit slot -->
+  <g fill="#a01812"><rect x="461" y="149" width="12" height="4"/><rect x="465" y="145" width="4" height="12"/></g>
+  <!-- slot 5 -->
+  <rect x="452" y="196" width="30" height="30" fill="#1c1813" stroke="#8a8272" stroke-width="1.4"/>
+  <text x="467" y="217" text-anchor="middle" fill="#E8A33D" font-size="15" font-weight="bold">5</text>
+  <text x="496" y="210" fill="#e8e2d2" font-size="15">Coffee Pills</text>
+  <text x="496" y="226" fill="#6e6858" font-size="11" font-style="italic">"Grabbin' peelz!"</text>
+  <!-- slot F -->
+  <rect x="452" y="250" width="30" height="30" fill="#1c1813" stroke="#8a8272" stroke-width="1.4"/>
+  <text x="467" y="271" text-anchor="middle" fill="#E8A33D" font-size="14" font-weight="bold">F</text>
+  <text x="496" y="264" fill="#e8e2d2" font-size="15">Figma Flashlight</text>
+  <text x="496" y="280" fill="#6e6858" font-size="11" font-style="italic">illuminates designs</text>
+  <!-- slot D -->
+  <rect x="452" y="304" width="30" height="30" fill="#1c1813" stroke="#8a8272" stroke-width="1.4"/>
+  <text x="467" y="325" text-anchor="middle" fill="#E8A33D" font-size="14" font-weight="bold">D</text>
+  <text x="496" y="318" fill="#e8e2d2" font-size="15">Claude Defib</text>
+  <text x="496" y="334" fill="#6e6858" font-size="11" font-style="italic">revives dead code</text>
+
+  <!-- ============ SURVIVOR GEAR ============ -->
+  <line x1="56" y1="366" x2="764" y2="366" stroke="#4a4238" stroke-width="1"/>
+  <text x="56" y="392" fill="#E8A33D" font-size="13" letter-spacing="4">SURVIVOR GEAR</text>
+  <g font-size="12" fill="#8a8272" letter-spacing="1">
+    <text x="56" y="424">Head</text>
+    <text x="56" y="454">Body</text>
+    <text x="452" y="424">Arms</text>
+    <text x="452" y="454">Legs</text>
   </g>
-  <g font-size="15" fill="#e8dfc2" letter-spacing="0.5">
-    <text x="160" y="150">Godot Engine <tspan fill="#D4AF37">+10</tspan></text>
-    <text x="160" y="180">Unity Blade <tspan fill="#D4AF37">+7</tspan></text>
-    <text x="160" y="210">Figma Torch</text>
-    <text x="160" y="240">Go Crossbow</text>
-  </g>
-  <g font-size="11" fill="#7d7147" font-style="italic">
-    <text x="290" y="150">keen infusion</text>
-    <text x="270" y="210">illuminates designs</text>
+  <g font-size="15" fill="#e8e2d2">
+    <text x="130" y="424">Headphones of Focus</text>
+    <text x="130" y="454">Hoodie of the Immune Dev</text>
+    <text x="520" y="424">Mechanical Keyboard Gauntlets</text>
+    <text x="520" y="454">Greaves of Sitting Too Long</text>
   </g>
 
-  <!-- armor -->
-  <text x="56" y="290" fill="#8a7a3d" font-size="13" letter-spacing="4">ARMOR</text>
-  <g font-size="12" fill="#8a7a3d" letter-spacing="1">
-    <text x="56" y="322">Head</text>
-    <text x="56" y="352">Chest</text>
-    <text x="56" y="382">Arms</text>
-    <text x="56" y="412">Legs</text>
+  <!-- ============ PILLS METER ============ -->
+  <line x1="56" y1="482" x2="764" y2="482" stroke="#4a4238" stroke-width="1"/>
+  <text x="56" y="514" fill="#d8d2c4" font-size="14" letter-spacing="1">PILLS BOTTLE</text>
+  <text x="188" y="514" fill="#6e6858" font-size="11" font-style="italic">(espresso)</text>
+  <rect x="220" y="524" width="360" height="16" fill="#1c1813" stroke="#4a4238" stroke-width="1"/>
+  <rect x="220" y="524" width="288" height="16" fill="url(#hpFill)"/>
+  <g stroke="#0e0c09" stroke-width="1" opacity="0.8">
+    <line x1="256" y1="524" x2="256" y2="540"/><line x1="292" y1="524" x2="292" y2="540"/><line x1="328" y1="524" x2="328" y2="540"/>
+    <line x1="364" y1="524" x2="364" y2="540"/><line x1="400" y1="524" x2="400" y2="540"/><line x1="436" y1="524" x2="436" y2="540"/>
+    <line x1="472" y1="524" x2="472" y2="540"/><line x1="508" y1="524" x2="508" y2="540"/><line x1="544" y1="524" x2="544" y2="540"/>
   </g>
-  <g font-size="15" fill="#e8dfc2" letter-spacing="0.5">
-    <text x="160" y="322">Headphones of Focus</text>
-    <text x="160" y="352">Hoodie of the Tarnished Dev</text>
-    <text x="160" y="382">Mechanical Keyboard Gauntlets</text>
-    <text x="160" y="412">Greaves of Sitting Too Long</text>
-  </g>
-
-  <!-- ============ RIGHT COLUMN ============ -->
-  <text x="452" y="118" fill="#8a7a3d" font-size="13" letter-spacing="4">TALISMANS</text>
-  <g>
-    <!-- t1 -->
-    <path d="M452 146 l6 5 -6 5 -6 -5 z" fill="url(#gold)"/>
-    <text x="470" y="155" fill="#e8dfc2" font-size="15">Coffee Scarab</text>
-    <text x="470" y="173" fill="#7d7147" font-size="11" font-style="italic">restores FP slowly</text>
-    <!-- t2 -->
-    <path d="M452 210 l6 5 -6 5 -6 -5 z" fill="url(#gold)"/>
-    <text x="470" y="219" fill="#e8dfc2" font-size="15">Git Icon</text>
-    <text x="470" y="237" fill="#7d7147" font-size="11" font-style="italic">undo death once</text>
-    <!-- t3 -->
-    <path d="M452 274 l6 5 -6 5 -6 -5 z" fill="url(#gold)"/>
-    <text x="470" y="283" fill="#e8dfc2" font-size="15">Rubber Duck Crest</text>
-    <text x="470" y="301" fill="#7d7147" font-size="11" font-style="italic">boosts bug discovery</text>
-    <!-- t4 -->
-    <path d="M452 338 l6 5 -6 5 -6 -5 z" fill="url(#gold)"/>
-    <text x="470" y="347" fill="#e8dfc2" font-size="15">Claude's Great Rune</text>
-    <text x="470" y="365" fill="#7d7147" font-size="11" font-style="italic">summons an AI cooperator</text>
-  </g>
-
-  <!-- ============ FLASK BAR ============ -->
-  <line x1="56" y1="452" x2="764" y2="452" stroke="#4a4026" stroke-width="1"/>
-  <text x="56" y="490" fill="#d8d0b8" font-size="14" letter-spacing="1">Flask of Crimson Tears</text>
-  <text x="56" y="490" fill="#7d7147" font-size="11" font-style="italic" dx="180">(espresso)</text>
-  <rect x="200" y="500" width="360" height="16" rx="8" fill="#241f13" stroke="#4a4026" stroke-width="1"/>
-  <rect x="200" y="500" width="288" height="16" rx="8" fill="url(#barFill)"/>
-  <g clip-path="url(#clipFlask)"><rect x="-90" y="500" width="90" height="16" fill="url(#sheen)"><animate attributeName="x" from="110" to="500" dur="2.5s" repeatCount="indefinite"/></rect></g>
-  <text x="576" y="513" fill="#c8bfa0" font-size="12" letter-spacing="1">8 / 10</text>
+  <g clip-path="url(#clipPills)"><rect x="-90" y="524" width="90" height="16" fill="url(#sheen)"><animate attributeName="x" from="130" to="520" dur="2.5s" repeatCount="indefinite"/></rect></g>
+  <text x="596" y="537" fill="#c8c0ac" font-size="12" letter-spacing="1">8 / 10</text>
 
   <!-- footer -->
-  <line x1="120" y1="544" x2="700" y2="544" stroke="#4a4026" stroke-width="1"/>
-  <text x="410" y="572" text-anchor="middle" fill="#8a7a3d" font-size="12" font-style="italic" letter-spacing="1">"Well-equipped, Tarnished. Now, to battle."</text>
+  <line x1="120" y1="566" x2="700" y2="566" stroke="#4a4238" stroke-width="1"/>
+  <text x="410" y="592" text-anchor="middle" fill="#8a8272" font-size="12" font-style="italic" letter-spacing="1">"Gear check complete. Safe house door opens in 3... 2... 1..."</text>
 </svg>
