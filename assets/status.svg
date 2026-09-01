@@ -89,7 +89,7 @@
   <text x="60" y="118" fill="#e8e2d2" font-size="22" letter-spacing="3">B100PER</text>
   <text x="60" y="140" fill="#8a8272" font-size="13" letter-spacing="2">IMMUNE · GAME DEVELOPER</text>
   <text id="rank" x="760" y="118" text-anchor="end" fill="#E8A33D" font-size="15" letter-spacing="2">RANK: HARDENED</text>
-  <text id="kills" x="760" y="140" text-anchor="end" fill="#8a8272" font-size="13" letter-spacing="1">Zombies Killed  2,151</text>
+  <text id="kills" x="760" y="140" text-anchor="end" fill="#8a8272" font-size="13" letter-spacing="1">Zombies Killed  2,152</text>
 
   <!-- bars -->
   <g font-size="13" letter-spacing="2">
@@ -124,8 +124,8 @@
   </g>
   <g font-size="12" fill="#c8c0ac" text-anchor="end" letter-spacing="1">
     <text id="hpVal" x="580" y="163" dx="60">3 / 10</text>
-    <text id="adrVal" x="580" y="201" dx="60">558 / 1,000</text>
-    <text id="morVal" x="580" y="239" dx="60">2,143 / 2,500</text>
+    <text id="adrVal" x="580" y="201" dx="60">559 / 1,000</text>
+    <text id="morVal" x="580" y="239" dx="60">2,144 / 2,500</text>
   </g>
 
   <!-- skills divider -->
@@ -136,7 +136,7 @@
   <g font-size="15" letter-spacing="1">
     <g>
       <text x="60"  y="332" fill="#d8d2c4">Accuracy</text>      <text id="sk1" x="360" y="332" text-anchor="end" fill="#E8A33D">0</text>
-      <text x="60"  y="364" fill="#d8d2c4">Reload Speed</text>  <text id="sk2" x="360" y="364" text-anchor="end" fill="#E8A33D">81</text>
+      <text x="60"  y="364" fill="#d8d2c4">Reload Speed</text>  <text id="sk2" x="360" y="364" text-anchor="end" fill="#E8A33D">82</text>
       <text x="60"  y="396" fill="#d8d2c4">Endurance</text>     <text id="sk3" x="360" y="396" text-anchor="end" fill="#E8A33D">51</text>
       <text x="60"  y="428" fill="#d8d2c4">Strength</text>      <text id="sk4" x="360" y="428" text-anchor="end" fill="#E8A33D">1</text>
     </g>
