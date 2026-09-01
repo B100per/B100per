@@ -4,7 +4,7 @@
 
 ![Static Badge](https://img.shields.io/badge/STATUS-ALIVE-A01812?style=for-the-badge&labelColor=0d0d0d)
 ![Static Badge](https://img.shields.io/badge/INFECTION%20LEVEL-IMMUNE-E8A33D?style=for-the-badge&labelColor=0d0d0d)
-![Static Badge](https://img.shields.io/badge/ROLE-GAME%20DEV-A01812?style=for-the-badge&labelColor=0d0d0d)
+![Static Badge](https://img.shields.io/badge/ROLE-GAME%20DEV%20%2F%2F%20FULLSTACK-A01812?style=for-the-badge&labelColor=0d0d0d)
 
 </div>
 
@@ -17,14 +17,14 @@
 
   [ OK ]  INFECTION........... NEGATIVE
   [ OK ]  STATUS............... IMMUNE
-  [ OK ]  ROLE................. GAME DEVELOPER
-  [ OK ]  LOADOUT SPECIALTY.... Godot, gameplay systems, design-to-code
+  [ OK ]  ROLE................. GAME DEV // FULL-STACK DEV
+  [ OK ]  LOADOUT SPECIALTY.... Godot, gameplay systems, full-stack web (Go, JS)
   [ !! ]  ACTIVE CAMPAIGN...... [REDACTED] — sealed under contract (NDA)
 
 > scan complete. proceed to safe house.
 ```
 
-I build games and tools — mostly with Godot. Currently fighting through a long campaign, safe house by safe house.
+I build games and full-stack web apps — mostly Godot on the game side, Go and JS on the web side. Currently fighting through a long campaign, safe house by safe house.
 
 ---
 
