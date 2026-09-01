@@ -140,7 +140,7 @@ def collect():
         s["contributed"] = profile["repositoriesContributedTo"]["totalCount"]
         s["langs"] = len({n["primaryLanguage"]["name"]
                           for n in profile["topRepositories"]["nodes"]
-                          if n["primaryLanguage"]})
+                          if n and n["primaryLanguage"]})
 
         lifetime = window(born, now)
         if lifetime:
