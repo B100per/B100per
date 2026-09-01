@@ -77,7 +77,9 @@ I build games and tools — mostly with Godot. Currently fighting through a long
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=B100per&hide_border=true&background=0d0d0d&stroke=5a5346&ring=E8A33D&fire=A01812&currStreakLabel=E8A33D&sideLabels=d8d2c4&currStreakNum=d8d2c4&sideNums=d8d2c4&dates=6e6858" height="165" alt="streak" />
+![Commits](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fcommits%3Fq%3Dauthor%3AB100per&query=%24.total_count&label=COMMITS&color=A01812&labelColor=0d0d0d&style=for-the-badge&logo=github&logoColor=E8A33D)
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=B100per&mode=weekly&hide_border=true&background=0d0d0d&stroke=5a5346&ring=E8A33D&fire=A01812&currStreakLabel=E8A33D&sideLabels=d8d2c4&currStreakNum=d8d2c4&sideNums=d8d2c4&dates=6e6858" height="165" alt="streak" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/B100per/B100per/output/snake.svg" />

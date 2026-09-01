@@ -1,0 +1,44 @@
+name: refresh survivor status
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"  # refresh every 3h so the count stays current across all repos
+  workflow_dispatch:      # run manually from the Actions tab
+  push:
+    branches: [main]       # refresh right away on every push to this repo
+
+permissions:
+  contents: write
+
+# a second run mid-flight would just fight over the same file
+concurrency:
+  group: status-svg
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Self-check the renderer
+        run: python3 scripts/update_status.py --demo
+
+      # GH_PAT must be a PAT with `read:user`; the built-in GITHUB_TOKEN cannot
+      # see contributions in other orgs' private repos, which is most of them.
+      - name: Rewrite assets/status.svg from live GitHub data
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: python3 scripts/update_status.py
+
+      - name: Commit if the numbers moved
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/status.svg
+          git diff --staged --quiet && echo "no change" && exit 0
+          git commit -m "chore: refresh survivor status from live GitHub stats"
+          git push
