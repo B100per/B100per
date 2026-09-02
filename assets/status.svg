@@ -89,7 +89,7 @@
   <text x="60" y="118" fill="#e8e2d2" font-size="22" letter-spacing="3">B100PER</text>
   <text x="60" y="140" fill="#8a8272" font-size="13" letter-spacing="2">IMMUNE · GAME DEVELOPER</text>
   <text id="rank" x="760" y="118" text-anchor="end" fill="#E8A33D" font-size="15" letter-spacing="2">RANK: HARDENED</text>
-  <text id="kills" x="760" y="140" text-anchor="end" fill="#8a8272" font-size="13" letter-spacing="1">Zombies Killed  2,178</text>
+  <text id="kills" x="760" y="140" text-anchor="end" fill="#8a8272" font-size="13" letter-spacing="1">Zombies Killed  2,181</text>
 
   <!-- bars -->
   <g font-size="13" letter-spacing="2">
@@ -125,7 +125,7 @@
   <g font-size="12" fill="#c8c0ac" text-anchor="end" letter-spacing="1">
     <text id="hpVal" x="580" y="163" dx="60">3 / 10</text>
     <text id="adrVal" x="580" y="201" dx="60">570 / 1,000</text>
-    <text id="morVal" x="580" y="239" dx="60">2,172 / 2,500</text>
+    <text id="morVal" x="580" y="239" dx="60">2,175 / 2,500</text>
   </g>
 
   <!-- skills divider -->
