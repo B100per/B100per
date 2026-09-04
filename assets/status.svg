@@ -40,7 +40,7 @@
     </filter>
     <clipPath id="clipHP"><rect id="clipHPRect" x="220" y="150" width="184" height="16"/></clipPath>
     <clipPath id="clipADR"><rect id="clipADRRect" x="220" y="188" width="216" height="16"/></clipPath>
-    <clipPath id="clipMOR"><rect id="clipMORRect" x="220" y="226" width="322" height="16"/></clipPath>
+    <clipPath id="clipMOR"><rect id="clipMORRect" x="220" y="226" width="323" height="16"/></clipPath>
   </defs>
 
   <!-- panel background -->
@@ -108,7 +108,7 @@
       <animate attributeName="opacity" values="1;0.25;1" dur="0.9s" repeatCount="indefinite"/>
     </rect>
     <rect id="adrBar" x="220" y="188" width="216" height="16" fill="url(#adrFill)"/>
-    <rect id="morBar" x="220" y="226" width="322" height="16" fill="url(#morFill)"/>
+    <rect id="morBar" x="220" y="226" width="323" height="16" fill="url(#morFill)"/>
 
     <!-- HUD segment ticks -->
     <g stroke="#0e0c09" stroke-width="1" opacity="0.8">
@@ -125,7 +125,7 @@
   <g font-size="12" fill="#c8c0ac" text-anchor="end" letter-spacing="1">
     <text id="hpVal" x="580" y="163" dx="60">4 / 10</text>
     <text id="adrVal" x="580" y="201" dx="60">599 / 1,000</text>
-    <text id="morVal" x="580" y="239" dx="60">2,239 / 2,500</text>
+    <text id="morVal" x="580" y="239" dx="60">2,240 / 2,500</text>
   </g>
 
   <!-- skills divider -->
