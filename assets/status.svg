@@ -125,7 +125,7 @@
   <g font-size="12" fill="#c8c0ac" text-anchor="end" letter-spacing="1">
     <text id="hpVal" x="580" y="163" dx="60">4 / 10</text>
     <text id="adrVal" x="580" y="201" dx="60">512 / 1,000</text>
-    <text id="morVal" x="580" y="239" dx="60">2,644 / 5,000</text>
+    <text id="morVal" x="580" y="239" dx="60">2,645 / 5,000</text>
   </g>
 
   <!-- skills divider -->
@@ -137,7 +137,7 @@
     <g>
       <text x="60"  y="332" fill="#d8d2c4">Accuracy</text>      <text id="sk1" x="360" y="332" text-anchor="end" fill="#E8A33D">0</text>
       <text x="60"  y="364" fill="#d8d2c4">Reload Speed</text>  <text id="sk2" x="360" y="364" text-anchor="end" fill="#E8A33D">18</text>
-      <text x="60"  y="396" fill="#d8d2c4">Endurance</text>     <text id="sk3" x="360" y="396" text-anchor="end" fill="#E8A33D">51</text>
+      <text x="60"  y="396" fill="#d8d2c4">Endurance</text>     <text id="sk3" x="360" y="396" text-anchor="end" fill="#E8A33D">52</text>
       <text x="60"  y="428" fill="#d8d2c4">Strength</text>      <text id="sk4" x="360" y="428" text-anchor="end" fill="#E8A33D">2</text>
     </g>
     <g>
