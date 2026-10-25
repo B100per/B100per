@@ -137,7 +137,7 @@
     <g>
       <text x="60"  y="332" fill="#d8d2c4">Accuracy</text>      <text id="sk1" x="360" y="332" text-anchor="end" fill="#E8A33D">0</text>
       <text x="60"  y="364" fill="#d8d2c4">Reload Speed</text>  <text id="sk2" x="360" y="364" text-anchor="end" fill="#E8A33D">76</text>
-      <text x="60"  y="396" fill="#d8d2c4">Endurance</text>     <text id="sk3" x="360" y="396" text-anchor="end" fill="#E8A33D">52</text>
+      <text x="60"  y="396" fill="#d8d2c4">Endurance</text>     <text id="sk3" x="360" y="396" text-anchor="end" fill="#E8A33D">53</text>
       <text x="60"  y="428" fill="#d8d2c4">Strength</text>      <text id="sk4" x="360" y="428" text-anchor="end" fill="#E8A33D">2</text>
     </g>
     <g>
